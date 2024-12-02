@@ -5,9 +5,10 @@ const button = document.getElementById("button")
 button.addEventListener("click", (e) =>
         {
    e.preventDefault();
-   console.log(input.value);
-   
-   if(input.value === input.value.split('').reverse().join('')){
+   if(input.value == "" || input.value == "number"){
+    alert("Please enter a word")
+   }
+    else if (input.value === input.value.split('').reverse().join('')){
     alert(`${input.value} is a palindrome`)
    }
    else{
