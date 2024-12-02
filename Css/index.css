@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:blueviolet;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.palindrome{
+    border-radius: 2px;
+    height: 38vh;
+    width: 24vw;
+    background-color:aliceblue;
+    margin: auto;
+    margin-top: 15%;
+    padding: 10px;
+}
+.palindrome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+}
+h3{
+    margin-left: 24%;
+    margin-top: -5px;
+}
+p{
+    font-size: 17px;
+    margin-top: 5px;
+    font-family: 'rubik';
+}
+input:focus{
+    outline: none;
+}
+input{
+    height: 40px;
+    width: 95%;
+    text-indent: 10px;
+    margin: 15px 0 0 7px;
+    border-radius: 4px;
+    border: 1px solid #343435;
+    background-color: transparent;
+}
+#button{
+    width: 95%;
+    height: 45px;
+    border-radius: 4px;
+    margin: 15px 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    background-color:blueviolet;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+@media (max-width:600px){
+.palindrome{
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 45%;
+}
+h3{
+    margin-left: 58px;
+}
+}
+
+@media (min-width:600px) and (max-width:900px)  {
+    .palindrome{
+        width: 85%;
+        height: 30vh;
+        border-radius: 10px;
+        margin-top: 34%;
+    }
+    h3{
+        margin-left: 35%;
+    }
+}
